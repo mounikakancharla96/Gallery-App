@@ -1,0 +1,40 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+}
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    max-width: 1150px;
+}
+.image {
+    border-radius: 10px;
+}
+.heading {
+    color: #1e293b;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.para {
+    color:  #64748b;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+@media screen and (min-width: 768px) {
+    .heading {
+        font-size: 32px;
+    }
+    .para {
+        font-size: 18px;;
+    }
+}
